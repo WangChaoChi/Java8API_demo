@@ -3,6 +3,11 @@ package com.wcc.test;
 import java.lang.reflect.Field;
 
 public class Main {
+    /**
+     * 为什么1000 ==1000为false，100 ==100为true
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
         /*Integer a = 1000, b = 1000;
         System.out.println(a == b);
