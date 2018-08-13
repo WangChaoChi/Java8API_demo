@@ -1,7 +1,5 @@
 package com.wcc.nio;
 
-import com.wcc.io.RandomAccessFileDemo;
-
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.RandomAccessFile;
@@ -26,7 +24,7 @@ public class ChannelDemo {
         RandomAccessFile raf1 = new RandomAccessFile("", "r");
         FileChannel fc1 = raf1.getChannel();//只读
 
-        RandomAccessFile raf2 = new RandomAccessFile("", "r");
+        RandomAccessFile raf2 = new RandomAccessFile("", "rw");
         FileChannel fc2 = raf2.getChannel();//读写
 
 
